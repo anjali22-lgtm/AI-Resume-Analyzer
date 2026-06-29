@@ -1,17 +1,26 @@
 # 🤖 AI Resume Analyzer
 
-An AI-powered Resume Analyzer built using **Google Gemini AI**, **LangChain**, and **Streamlit**.
+An AI-powered Resume Analyzer built using **Streamlit, LangChain, and Google Gemini AI**.  
+It compares a candidate’s resume with a job description and provides intelligent feedback.
 
-## 🚀 Features
+---
+
+## 🚀 Live Demo
+
+👉 https://huggingface.co/spaces/anjali4ho/ai-resume-analyzer
+
+---
+
+## 📌 Features
 
 - 📄 Upload Resume (PDF)
 - 💼 Paste Job Description
-- 🤖 AI-powered Resume Analysis
-- 📊 Resume Match Score
-- ✅ Matching Skills
-- ❌ Missing Skills
-- 💡 Resume Improvement Suggestions
-- 🎤 Interview Questions
+- 🤖 AI-powered analysis using Gemini
+- 📊 Skill match evaluation
+- 🧠 Smart resume feedback
+- ⚡ Fast Streamlit UI
+
+---
 
 ## 🛠️ Tech Stack
 
@@ -20,15 +29,8 @@ An AI-powered Resume Analyzer built using **Google Gemini AI**, **LangChain**, a
 - LangChain
 - Google Gemini AI
 - PyPDF2
-- python-dotenv
+- dotenv
 
-## Installation
+---
 
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
-
-## Author
-
-**Anjali Jamwal**
+## 📁 Project Structure
